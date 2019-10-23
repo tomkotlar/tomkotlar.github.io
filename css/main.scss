@@ -1,9 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500|Roboto&display=swap');
+
+
 
 body,
 html {
-  font-family: "Montserrat";
+  font-family: "Roboto";
   margin: 0;
+  
 
   a {
     text-decoration: none;
@@ -30,11 +33,15 @@ section {
     font-size: 4em;
     margin: 1em auto;
     width: 70%;
+    
    
     &::before {
       content: " ";
       border-top: 5px solid rgb(189, 189, 189);
       display: block;
+    
+}
+  }
 }
 
 nav {
@@ -135,5 +142,3 @@ nav {
     100% { opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
     // Generated with Bounce.js.
 }
-
-
