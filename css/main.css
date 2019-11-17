@@ -31,8 +31,18 @@ section {
   padding: 4em;
 }
 
-section h1  {
+section h1, h5  {
   font-size: 4em;
+  /* font-weight: 500; */
+  margin: 1em auto;
+  width: 70%;
+  cursor: pointer;
+  color: rgb(68, 71, 90);
+ 
+}
+
+section h5  {
+  font-size: 1em;
   /* font-weight: 500; */
   margin: 1em auto;
   width: 70%;
